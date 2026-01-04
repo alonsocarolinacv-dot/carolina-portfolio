@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carolina Alonso</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <strong>Carolina Alonso</strong>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero">
+     <h1>Carolina Alonso</h1>
+<p>Creative Content Writer & UX/UI Designer</p>
+
+<div class="cta">
+  <a class="btn" href="Carolina_Alonso_CV.pdf" download>Download CV</a>
+  <a class="btn ghost" href="#proyectos">Projects</a>
+  <a class="btn ghost" href="#contacto">Contact</a>
+</div>
+
+
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="proyectos" class="grid">
+    <article class="card">
+  <h2>Aspen</h2>
+  <p>Digital Content Manager. Writing, editing and reviewing digital content for web and mobile platforms.</p>
+</article>
+
+<article class="card">
+  <h2>UX / UI Design</h2>
+  <p>UX writing, microcopy and interface content focused on clarity and user experience.</p>
+</article>
+
+<article class="card">
+  <h2>Content & QA</h2>
+  <p>Content quality review, tone consistency, compliance and user communication.</p>
+</article>
+
+
+    <section id="contacto" class="contact">
+      <h2>Contact</h2>
+      <form id="form" action="https://formspree.io/f/xzdzkywz" method="POST">
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+  <input type="hidden" name="_redirect" value="https://alonsocarolinacv-dot.github.io/carolina-portfolio/#contacto">
+
+        <label>Nombre
+          <input name="name" required />
+        </label>
+        <label>Email
+          <input name="email" type="email" required />
+        </label>
+        <label>Mensaje
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+      <button class="btn" type="submit">Send</button>
+        <p id="msg" class="msg" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Carolina Alonso</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
