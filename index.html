@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carolina Alonso</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <strong>Carolina Alonso</strong>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero">
+     <h1>Carolina Alonso</h1>
+<p>Creative Content Writer & UX Designer</p>
+
+     <div class="cta">
+  <a class="btn" href="Carolina_Alonso_CV.pdf" download>Download CV</a>
+  <a class="btn ghost" href="#proyectos">Ver proyectos</a>
+  <a class="btn ghost" href="#contacto">Contacto</a>
+</div>
+
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="proyectos" class="grid">
+    <article class="card">
+  <h2>Aspen</h2>
+  <p>Digital Content Manager. Redacción, edición y revisión de contenido digital para plataformas web y mobile.</p>
+</article>
+
+<article class="card">
+  <h2>UX / UI Design</h2>
+  <p>Creación de microcopy, contenido UX y mensajes de interfaz enfocados en claridad y experiencia de usuario.</p>
+</article>
+
+<article class="card">
+  <h2>Content & QA</h2>
+  <p>Revisión de calidad de contenido, tono, consistencia, políticas y comunicación para usuarios.</p>
+</article>
+
+
+    <section id="contacto" class="contact">
+      <h2>Contacto</h2>
+      <form id="form">
+        <label>Nombre
+          <input name="name" required />
+        </label>
+        <label>Email
+          <input name="email" type="email" required />
+        </label>
+        <label>Mensaje
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button class="btn" type="submit">Enviar</button>
+        <p id="msg" class="msg" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Carolina Alonso</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
