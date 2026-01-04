@@ -17,21 +17,36 @@ body{
 
 .container{max-width:980px;margin:0 auto;padding:24px}
 
-.nav{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:16px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
 }
-.nav-links{
-  display:flex;
-  gap:18px;
-  align-items:center;
+.nav-links {
+  display: flex;
+  gap: 22px;
+  align-items: center;
 }
-.lang{
-  display:flex;
-  gap:10px;
-  align-items:center;
+
+.lang {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.lang-link {
+  font-size: 14px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--text);
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.lang-link:hover {
+  opacity: 1;
 }
 
 
