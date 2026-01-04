@@ -105,3 +105,17 @@ input,textarea{
   .grid{grid-template-columns:1fr}
   .hero h1{font-size:34px}
 }
+.nav { gap: 16px; }
+.nav-links { display:flex; gap:16px; align-items:center; }
+.lang { display:flex; gap:8px; align-items:center; }
+
+.lang-link{
+  font-size:14px;
+  padding:6px 10px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:var(--text);
+  text-decoration:none;
+  opacity:.9;
+}
+.lang-link:hover{ opacity:1; }
